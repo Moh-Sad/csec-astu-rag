@@ -8,10 +8,10 @@ export function WelcomeScreen() {
 
   return (
     <div className="h-full flex flex-col items-center justify-center px-3 sm:px-4 md:px-6 py-6 sm:py-8">
-      <div className="max-w-2xl w-full text-center space-y-6 sm:space-y-8">
+      <div className="max-w-5xl w-full text-center space-y-6 sm:space-y-8">
         {/* Logo and Title */}
         <div className="space-y-3 sm:space-y-4">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-linear-to-br from-primary to-accent flex items-center justify-center mx-auto">
             <span className="text-3xl sm:text-4xl">🤖</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground">Welcome to CSEC ASTU Bot</h1>
