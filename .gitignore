@@ -1,0 +1,76 @@
+# Node modules
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# OS metadata
+Thumbs.db
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage
+coverage/
+
+# Optional: if using Playwright or Cypress
+playwright-report/
+cypress/screenshots/
+cypress/videos/
+
+# Optional: if using Turbopack / Next.js cache
+.next/cache/
+.turbo/
+
+# Optional: if using pnpm
+.pnpm-store/
+.pnpm-debug.log*
+
+# Optional: if using Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Optional: if using Docker
+docker-compose.override.yml
+docker-data/
+
+# Optional: if using VSCode local config
+.vscode/*
+
+# Misc
+*.local
+*.bak
+*.tmp
